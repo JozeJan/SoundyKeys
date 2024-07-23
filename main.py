@@ -11,5 +11,5 @@ while True:
         pygame.mixer.music.load(f"Audio/{keyboardpressnum}.wav")
         pygame.mixer.music.play()
         keyboardpressnum += 1
-        if keyboardpressnum > 15:
+        if keyboardpressnum > 15: #How many times to am am am
             keyboardpressnum = 1
