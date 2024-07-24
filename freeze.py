@@ -5,8 +5,10 @@ import os
 freeze(
     console=[{"script":"main.py"}],
     windows=[],
-    data_files=os.listdir("Audio"),
+    data_files=os.listdir("C:\\Users\\matej\\PycharmProjects\\CUkeys\\Audio"),
     zipfile='CUkeys.zip',
-    options={},
+    options={"packages":["pygame","keyboard"]},
     version_info={}
 )
+
+#

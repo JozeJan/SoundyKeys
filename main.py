@@ -1,6 +1,5 @@
 import keyboard
 import pygame
-from playsound import playsound
 keyboardpressnum = 1
 while True:
     # Wait for the next event.
