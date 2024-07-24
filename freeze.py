@@ -1,7 +1,6 @@
 import py2exe
 from py2exe import freeze
 import os
-
 freeze(
     console=[{"script":"main.py"}],
     windows=[],
